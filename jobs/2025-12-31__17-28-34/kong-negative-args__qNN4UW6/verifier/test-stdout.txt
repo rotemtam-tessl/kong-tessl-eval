@@ -1,0 +1,10 @@
+Running go test...
+=== RUN   TestAdd
+--- PASS: TestAdd (0.12s)
+=== RUN   TestAddNegative
+--- PASS: TestAddNegative (0.12s)
+PASS
+ok  	calculator-cli	0.246s
+
+All tests passed!
+Reward: 1.0

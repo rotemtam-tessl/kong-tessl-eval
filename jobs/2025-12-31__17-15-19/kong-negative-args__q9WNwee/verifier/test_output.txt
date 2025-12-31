@@ -1,0 +1,4 @@
+=== RUN   TestAddNegative
+--- PASS: TestAddNegative (0.16s)
+PASS
+ok  	calculator-cli	0.157s

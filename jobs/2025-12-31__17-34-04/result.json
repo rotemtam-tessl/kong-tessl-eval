@@ -1,0 +1,29 @@
+{
+    "id": "10ac01bb-6cb6-49be-a1ad-ec0c904089f4",
+    "started_at": "2025-12-31T17:34:04.570606",
+    "finished_at": "2025-12-31T17:36:59.234670",
+    "n_total_trials": 1,
+    "stats": {
+        "n_trials": 1,
+        "n_errors": 0,
+        "evals": {
+            "claude-code__adhoc": {
+                "n_trials": 1,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 1.0
+                    }
+                ],
+                "reward_stats": {
+                    "reward": {
+                        "1.0": [
+                            "kong-negative-args__9qp3MSc"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        }
+    }
+}

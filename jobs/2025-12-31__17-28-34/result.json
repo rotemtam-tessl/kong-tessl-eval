@@ -1,0 +1,29 @@
+{
+    "id": "36d8fd45-202f-4a32-9397-aa432dfa0bd4",
+    "started_at": "2025-12-31T17:28:34.650653",
+    "finished_at": "2025-12-31T17:28:54.873820",
+    "n_total_trials": 1,
+    "stats": {
+        "n_trials": 1,
+        "n_errors": 0,
+        "evals": {
+            "oracle__adhoc": {
+                "n_trials": 1,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 1.0
+                    }
+                ],
+                "reward_stats": {
+                    "reward": {
+                        "1.0": [
+                            "kong-negative-args__qNN4UW6"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+version = "1.0"
+
+[metadata]
+name = "Kong Negative Args Bug"
+description = "Fix a Go CLI to handle negative integer arguments correctly using alecthomas/kong"
+difficulty = "medium"
+source = "https://github.com/alecthomas/kong/issues/478"
+tags = ["go", "cli", "kong", "parsing"]
+
+[verifier]
+timeout_sec = 120
+
+[agent]
+timeout_sec = 300
+
+[environment]
+build_timeout_sec = 300
+cpu = 2
+memory_mb = 4096
+storage_mb = 10240
+

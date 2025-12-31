@@ -1,0 +1,47 @@
+claude --verbose --output-format stream-json -p '# Fix the Negative Argument Parsing Bug
+
+You are working on a Go CLI calculator built with `github.com/alecthomas/kong`.
+
+## The Problem
+
+The `add` subcommand takes two integer positional arguments and prints their sum. However, when users pass negative numbers, the CLI fails:
+
+```bash
+$ go run main.go add 2 -2
+main: error: unknown flag -2, did you mean "-h"?
+```
+
+The `-2` is being incorrectly parsed as a flag instead of a positional argument.
+
+## Your Task
+
+Fix `main.go` so that negative integers are correctly parsed as positional arguments.
+
+**Requirements:**
+
+- The fix should be using the Kong API
+- Do NOT require users to use `--` to separate flags from arguments
+- All existing functionality must continue to work
+
+## Files
+
+- `main.go` - The CLI implementation (needs fixing)
+- `main_test.go` - Tests that verify negative argument handling
+- `go.mod` / `go.sum` - Go module files
+
+## Verification
+
+Run the tests:
+
+```bash
+go test -v ./...
+```
+
+Or test manually:
+
+```bash
+go run main.go add 2 -2    # should print: 0
+go run main.go add -5 10   # should print: 5
+go run main.go add -3 -7   # should print: -10
+```
+' --allowedTools Bash Edit Write Read Glob Grep LS WebFetch NotebookEdit NotebookRead TodoRead TodoWrite Agent Skill SlashCommand Task WebSearch 2>&1 </dev/null | tee /logs/agent/claude-code.txt

@@ -1,6 +1,0 @@
-=== RUN   TestAdd
---- PASS: TestAdd (0.16s)
-=== RUN   TestAddNegative
---- PASS: TestAddNegative (0.12s)
-PASS
-ok  	calculator-cli	(cached)

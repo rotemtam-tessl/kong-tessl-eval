@@ -1,0 +1,8 @@
+{
+  "name": "my-project",
+  "dependencies": {
+    "tessl/golang-github-com-alecthomas--kong": {
+      "version": "1.13.0"
+    }
+  }
+}

@@ -1,6 +1,0 @@
-=== RUN   TestAdd
---- PASS: TestAdd (0.13s)
-=== RUN   TestAddNegative
---- PASS: TestAddNegative (0.11s)
-PASS
-ok  	calculator-cli	0.241s

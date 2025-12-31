@@ -1,4 +1,0 @@
-# calculator-cli [calculator-cli.test]
-./main.go:26:31: undefined: kong.AllowHyphenValue
-FAIL	calculator-cli [build failed]
-FAIL

@@ -1,0 +1,8 @@
+{
+  "name": "tessl/golang-github-com-alecthomas--kong",
+  "version": "1.13.1",
+  "docs": "docs/index.md",
+  "describes": "pkg:golang/github.com/alecthomas/kong@v1.13.0",
+  "summary": "Kong is a command-line parser for Go that enables building complex CLI applications through declarative struct-based grammar definitions",
+  "private": false
+}
